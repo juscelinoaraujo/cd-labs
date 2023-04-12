@@ -1,12 +1,12 @@
 # Questão 1 - Porta OR
 ----
 
-Desenvolver a porta `AND` utilizando VHDL e simular atraves do software Quartus, da Intel.
+Desenvolver a porta `OR` utilizando VHDL e simular atraves do software Quartus, da Intel.
 
 ### Especificação: Porta OR
 
 | A | B | Z = A + B |
-|---|---|---|
+|---|---|:---:|
 |0  |0  |0  |
 |1  |0  |1  |
 |0  |1  |1  |
@@ -19,7 +19,6 @@ Desenvolver a porta `AND` utilizando VHDL e simular atraves do software Quartus,
 ```vhdl 
 
 library ieee; --biblioteca
-use ieee_std_logic_1164.all; --pacotes
 
 --entidade
 entity or_gate is 
@@ -41,7 +40,7 @@ end architecture main;
 
 - ##### RTL Viewer -> Schematics
 
-<img src = "./assets/RTL_or_gate.png" width = "1000px" alig/>
+<img src = "./assets/or_gate.png" width = "1000px" alig/>
 
 [download](./assets/RTL_or_gate.pdf) 
 
@@ -51,4 +50,4 @@ end architecture main;
 
 <img src = ".\assets\wave_or_gate.jpg" width = "1000px" alig/>
 
-[visualizar](./waveform_or_gate.vhd)
+[visualizar](./waveform_and_gate.vhd)

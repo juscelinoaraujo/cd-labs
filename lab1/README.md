@@ -2,13 +2,13 @@
 ----
 ### Objetivos
 
-- Desenvolver/descrever a porta lógica `OR` em VHDL e simular usando Quartus.
+- Desenvolver/descrever a porta lógica `OR` em VHDL e simular utilizando ferramentas do ModelSim e Quartus.
 - Fazer o teste da porta `AND` e simular utilizando VHDL.
-- Desenvolver um código para que seja possível testar todas as propriedades,
-postulados e `leis de Morgan`.
+- Desenvolver um código para que seja possível testar todas as `propriedades`,
+`postulados` e `teoremas de De Morgan`.
 
 ## Mapeamento da metodologia
 
-<img src = ".\q1\assets\fluxograma.jpg" width = "900px" alig/>
+<img src = ".\q1\assets\fluxograma.png" width = "1000px" alig/>
 
-[visualizar](./q1/assets/fluxograma.jpg)
+[visualizar](./q1/assets/fluxograma.png)
